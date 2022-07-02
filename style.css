@@ -14,12 +14,13 @@ body {
 }
 
 .top {
-  position: absolute;
+  position: fixed;
   background-color: #0084e3;
   top: 0;
   right: 0;
-  width: 82%;
+  width: 0;
   height: 5px;
+  z-index: 100;
 }
 
 .wrapper {
@@ -256,7 +257,7 @@ body {
 
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 2rem;
   background-color: #ebf5fd;
   border-radius: 5px;
 }
@@ -286,12 +287,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 4rem;
+  padding: 1rem 8rem;
   border: none;
   color: white;
   font-family: inherit;
   background-color: #0084e3;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 700;
   border-radius: 5px;
   align-self: flex-end;
