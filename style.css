@@ -11,6 +11,7 @@ body {
   position: relative;
   color: #212529;
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 .top {
@@ -34,6 +35,7 @@ body {
   padding: 4rem;
 }
 .wrapper .left-wrapper img {
+  width: 20.5rem;
   margin-bottom: 5rem;
 }
 
@@ -248,8 +250,8 @@ body {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .wrapper .right-wrapper form .add {
@@ -264,6 +266,9 @@ body {
 .wrapper .right-wrapper form .add .left {
   display: flex;
   margin-top: 1rem;
+}
+.wrapper .right-wrapper form .add img {
+  width: 70px;
 }
 
 .wrapper .right-wrapper form .add .info {
