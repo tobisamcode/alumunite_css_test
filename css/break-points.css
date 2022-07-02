@@ -7,6 +7,7 @@
   .wrapper .left-wrapper .data .border {
     margin-left: 0.85rem;
   }
+
   .wrapper .right-wrapper form {
     margin-top: 2rem;
     margin-inline: 0;
@@ -81,6 +82,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .wrapper .right-wrapper {
+    border-top: 1px solid #bbdef7;
+  }
+
   .top {
     height: 3px;
   }
@@ -177,8 +182,7 @@
     display: none;
   }
   .wrapper .right-wrapper {
-    flex-basis: 50%;
-    border: none;
+    border-top: 1px solid #bbdef7;
   }
 }
 
@@ -186,6 +190,7 @@
   .top {
     height: 4px;
   }
+
   .wrapper .left-wrapper {
     padding: 2rem;
   }
@@ -217,6 +222,7 @@
   }
   .wrapper .left-wrapper .main img {
     margin-top: 9rem;
+    width: 15rem;
   }
 }
 
